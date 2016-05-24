@@ -1,26 +1,23 @@
 {
-  "name": "node-booklet-code",
-  "version": "1.0.0",
-  "description": "",
+  "name": "instaslam",
+  "version": "4.4.3",
+  "description": "displays popular images from instagram",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/scotch-io/node-booklet-code"
-  },
-  "author": "",
+  "keywords": [
+    "sample",
+    "instagram",
+    "api",
+    "usage"
+  ],
+  "author": "Monty Edwards",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/scotch-io/node-booklet-code/issues"
-  },
-  "homepage": "https://github.com/scotch-io/node-booklet-code",
   "dependencies": {
-    "ejs": "^2.3.1",
-    "express": "^4.12.1",
-    "instagram-node": "^0.5.6",
-    "instagram-node-lib": "^0.1.1"
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "instagram-node": "^0.5.8"
   }
 }
